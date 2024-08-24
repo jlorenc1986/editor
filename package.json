@@ -3,11 +3,20 @@
   "source": "src/index.html",
   "scripts": {
     "start": "parcel",
-    "build": "parcel build"
+    "build": "parcel build",
+    "test": "parcel test",
+    "clean": "rimraf ./dist",
+    "lint": "eslint \"src/**/*.{js,jsx,ts,tsx}\"",
+    "lint:fix": "eslint --fix \"src/**/*.{js,jsx,ts,tsx}\""
   },
   "devDependencies": {
+    "@eslint/js": "^9.9.1",
+    "eslint": "^9.9.1",
+    "eslint-plugin-react": "^7.35.0",
+    "globals": "^15.9.0",
     "parcel": "latest",
-    "process": "^0.11.10"
+    "process": "^0.11.10",
+    "typescript-eslint": "^8.2.0"
   },
   "dependencies": {
     "@types/react": "^18.3.4",
