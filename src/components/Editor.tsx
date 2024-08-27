@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Preview from "../Preview";
+import Preview from "./Preview";
 
 const Editor = ()  => {
     const [markdown, setMarkdown] = useState("")
