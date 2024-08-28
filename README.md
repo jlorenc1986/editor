@@ -13,15 +13,12 @@ This project is currently in development.
 Basic markdown rendering is there , advanced features will be developed shortly. 
 ## Project Screen Shot(s)
 
-#### Example:   
 
 [ PRETEND SCREEN SHOT IS HERE ]
 
 [ PRETEND OTHER SCREEN SHOT IS HERE ]
 
 ## Installation and Setup Instructions
-
-#### Example:  
 
 Clone down this repository. You will need `node` and `npm` installed globally on your machine.  
 
