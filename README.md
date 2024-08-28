@@ -42,9 +42,15 @@ To Visit App:
 
   - I want a to build on top of showdown a editor with more user friendly features
   - The basic implementation is for desktop only 
-  - Why was this project challenging and therefore a really good learning experience?
-  - What were some unexpected obstacles?
   - the project makes use of the following project/tools :
       - Parcel, react, showdown, jest, typescript 
       - for css i started with no framework in mind, but tailwind is a good candidate when more features will come in. 
     
+
+
+<!-- LICENSE -->
+## License
+
+Distributed under the MIT License. See `LICENSE.txt` for more information.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
