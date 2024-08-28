@@ -18,6 +18,14 @@ Basic markdown rendering is there , advanced features will be developed shortly.
 
 [ PRETEND OTHER SCREEN SHOT IS HERE ]
 
+
+### Built With
+
+* [![React][React.js]][React-url]
+* [![Parcel][parceljs.org]][Parcel-url]
+* [![Showdown][showdownjs.com]][Showdown-url]
+
+
 ## Installation and Setup Instructions
 
 Clone down this repository. You will need `node` and `npm` installed globally on your machine.  
