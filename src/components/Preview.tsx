@@ -12,7 +12,7 @@ const Preview = ({md}: PreviewProps) => {
   const sanitizedHTML = DOMPurify.sanitize(html);
 
   return (
-    <div className="preview"
+    <div className="preview" 
       dangerouslySetInnerHTML={{ __html: sanitizedHTML }}
     ></div>
   );

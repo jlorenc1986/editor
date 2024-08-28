@@ -8,7 +8,6 @@ test('should render default editor',() => {
     expect(el).toBeDefined();
 });
 
-
 test.skip('should render new html when user edits',() => {
     render(<Editor />);
     const markdown = "mbare" 
@@ -17,3 +16,4 @@ test.skip('should render new html when user edits',() => {
     const preview = screen.getByTitle('editor-preview').nodeValue; 
    expect(preview).toContain('mbare');
 });
+
