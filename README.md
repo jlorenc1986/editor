@@ -56,6 +56,9 @@ To Visit App:
 <!-- LICENSE -->
 ## License
 
-Distributed under the MIT License. See `LICENSE.txt` for more information.
+
+## License
+
+[MIT License](https://opensource.org/licenses/MIT) © [Lorenc Estrefi](https://jlorenc1986.github.io)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
