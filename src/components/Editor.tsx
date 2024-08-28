@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Preview from "./Preview";
 import useLocalStorage from "../hooks/useLocalStorage";
+import { DEFAULT_COLS, DEFAULT_ROWS } from "../constants/variables";
 
 const Editor = ()  => {
     const [markdown, setMarkdown] = useLocalStorage('storedMarkdown', '')
@@ -11,7 +12,7 @@ const Editor = ()  => {
 
     return (
         <div id="editor-wrapper">
-            <textarea id="editor" cols={30} rows={5} value={markdown} onChange={e => handleOnChange(e)}></textarea>
+            <textarea id="editor" cols={DEFAULT_COLS} rows={DEFAULT_ROWS} value={markdown} onChange={e => handleOnChange(e)}></textarea>
             <Preview md={markdown}></Preview>
         </div>
     )
