@@ -13,8 +13,9 @@ This project is currently in development.
 Basic markdown rendering is there , advanced features will be developed shortly. 
 ## Project Screen Shot(s)
 
+![Uploading Screenshot 2024-08-28 at 23.23.55.png…]()
 
-[ PRETEND SCREEN SHOT IS HERE ]
+
 
 [ PRETEND OTHER SCREEN SHOT IS HERE ]
 
