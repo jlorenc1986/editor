@@ -1,18 +1,16 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect } from 'react';
 
 /**
  * @param {String} key - the key on localstorage item
  * @param {String} defaultValue - string default value for localstorage item
  */
 
-const useLocalStorage = (key: string , defaultValue: string) => {
+const useLocalStorage = (key: string, defaultValue: string) => {
   const [value, setValue] = useState(() => {
     let currentValue;
 
     try {
-      currentValue = JSON.parse(
-        localStorage.getItem(key) || String(defaultValue)
-      );
+      currentValue = JSON.parse(localStorage.getItem(key) || String(defaultValue));
     } catch (error) {
       currentValue = defaultValue;
     }
@@ -20,7 +18,7 @@ const useLocalStorage = (key: string , defaultValue: string) => {
     return currentValue;
   });
 
-//   here the key or making it reusable 
+  //   here the key or making it reusable
 
   useEffect(() => {
     localStorage.setItem(key, JSON.stringify(value));

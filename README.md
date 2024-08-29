@@ -62,7 +62,7 @@ To Visit App:
       - [react testing library](https://testing-library.com/)
       - [playwright](https://https://playwright.dev/)
       - [typescript](https://www.typescriptlang.org/)
-      - [eslint](https://eslint.org/
+      - [eslint](https://eslint.org/)
       - for css I started with no framework in mind, but [tailwind](https://tailwindcss.com/) is a good candidate when more features will come in. 
     
 
