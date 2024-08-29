@@ -8,12 +8,11 @@ test('should render default editor',() => {
     expect(el).toBeDefined();
 });
 
-test.skip('should render new html when user edits',() => {
-    render(<Editor />);
-    const markdown = "mbare" 
+test('should render new html when user edits',() => {
+    const {container } = render(<Editor />);
+    const markdown = "mbare";
     const editor = screen.getByRole('textbox');
-    fireEvent.change(editor, {target:{ value: markdown}})
-    const preview = screen.getByTitle('editor-preview').nodeValue; 
-   expect(preview).toContain('mbare');
+    fireEvent.change(editor, {target:{ value: markdown}})    
+   expect(container.getElementsByClassName('preview').item(0)?.innerHTML).toEqual('<p>mbare</p>');
 });
 
