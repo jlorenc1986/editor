@@ -12,7 +12,7 @@ test('hello world', async ({ page }) => {
 /**
  * check if user types on editor are the preview changes accordingly
  */
-test.only('write markdown and get proper preview', async ({ page }) => {
+test('write markdown and get proper preview', async ({ page }) => {
   await page.goto('/');
   await page.locator('#editor').fill(markdownHeaderLevelThree);
   await expect((await page.locator('.preview').allInnerTexts()).toLocaleString()).toContain(

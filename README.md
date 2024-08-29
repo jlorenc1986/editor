@@ -26,6 +26,10 @@ Installation:
 
 `npm install`  
 
+Run local dev server:
+
+`npm run start`
+
 To Run unit tests:  
 
 `npm run test:unit`  
@@ -43,13 +47,17 @@ To Run Linter:
 `npm run lint`  
 
 
-To Start Server:
+To Start local server:
 
 `npm run start`  
 
 To Visit App:
 
 `localhost:1234`  
+
+To build for production
+
+`npm run build`
 
 ## Reflection
 
