@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import Preview from "./Preview";
 import useLocalStorage from "../hooks/useLocalStorage";
 import { DEFAULT_COLS, DEFAULT_ROWS } from "../constants/variables";
