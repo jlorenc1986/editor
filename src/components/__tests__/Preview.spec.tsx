@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { render, screen } from "@testing-library/react"; // Importing the render function from the testing library
+import { render } from "@testing-library/react"; // Importing the render function from the testing library
 import Preview from "../Preview"; // Importing the Header component
 import { markdownHeaderLevelOne } from '../../constants/test.mocks';
 
