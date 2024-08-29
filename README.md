@@ -26,9 +26,17 @@ Installation:
 
 `npm install`  
 
-To Run Test Suite:  
+To Run unit tests:  
 
-`npm run test`  
+`npm run test:unit`  
+
+To Run e2e tests headless:  
+
+`npm run test:e2e`  
+
+To Run e2e tests with ui:  
+
+`npm run test:e2e:ui`  
 
 To Run Linter:  
 
