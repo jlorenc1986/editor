@@ -56,7 +56,13 @@ To Visit App:
   - I want a to build on top of showdown a editor with more user friendly features
   - The basic implementation is for desktop only 
   - the project makes use of the following project/tools :
-      - [parcel](https://parceljs.org/), [react](https://react.dev/), [showdown](https://showdownjs.com/), [react testing library](https://testing-library.com/), [typescript](https://www.typescriptlang.org/), [eslint](https://eslint.org/)
+      - [parcel](https://parceljs.org/)
+      - [react](https://react.dev/)
+      - [showdown](https://showdownjs.com/)
+      - [react testing library](https://testing-library.com/)
+      - [playwright](https://https://playwright.dev/)
+      - [typescript](https://www.typescriptlang.org/)
+      - [eslint](https://eslint.org/
       - for css I started with no framework in mind, but [tailwind](https://tailwindcss.com/) is a good candidate when more features will come in. 
     
 
