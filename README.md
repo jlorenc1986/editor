@@ -27,6 +27,10 @@ Run local dev server:
 
 `npm run start`
 
+To Run all tests:  
+
+`npm run test`  
+
 To Run unit tests:  
 
 `npm run test:unit`  
